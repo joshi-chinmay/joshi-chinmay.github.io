@@ -5,13 +5,13 @@ html, body {
   letter-spacing: 0.1rem;
 }
 
-/* large diveces */
+ /*large diveces */
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
   html, body {
     text-align: justify;
   }
 }
-/* large diveces retina display */
+ /*large diveces retina display */
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
   html, body {
     text-align: justify;
