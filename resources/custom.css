@@ -1,0 +1,86 @@
+html, body {
+  font-family: 'Nunito', sans-serif;
+  color: #8c8c8c;
+  background-color: #f4f4f4;
+  letter-spacing: 0.1rem;
+}
+
+/* large diveces */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  html, body {
+    text-align: justify;
+  }
+}
+/* large diveces retina display */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+  html, body {
+    text-align: justify;
+  }
+}
+
+/* small diveces including landscape modes */
+@media (max-width:320px) {
+  .sm-device-mar-top {
+    margin-top: 25px;
+  }
+}
+@media (max-width:480px) {
+  .sm-device-mar-top {
+    margin-top: 25px;
+  }
+}
+@media (max-width:600px) {
+  .sm-device-mar-top {
+    margin-top: 25px;
+  }
+}
+@media (max-width:801px) {
+  .sm-device-mar-top {
+    margin-top: 25px;
+  }
+}
+
+.portfolio-title {
+  padding: 44px 0px 44px 0px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.lead-lg {
+  font-size: 4.12rem;
+  font-weight: 300;
+  letter-spacing: 0.29rem;
+}
+.lead {
+  font-size: 1.12rem;
+  font-weight: 300;
+  letter-spacing: 0.29rem;
+}
+.img-thumbnail {
+  height: 222px;
+  width: 200px;
+}
+.title {
+  font-size: 1.01rem;
+  text-transform: uppercase;
+}
+.title-info {
+  font-size: 1.06rem;
+  text-decoration: none;
+  color: #5d5d5d;
+}
+.title-info:hover, .title-info:active, .title-info:focus {
+  text-decoration: none;
+  color: #2c2c2c;
+}
+.info-separator {
+  margin: 21px 0 21px 0;
+  font-size: .48rem;
+}
+.info-separator i {
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.social-media-icons i {
+  margin-left: 4px;
+  margin-right: 4px;
+}
