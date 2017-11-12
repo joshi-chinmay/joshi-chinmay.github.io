@@ -1,7 +1,7 @@
 html, body {
   font-family: 'Nunito', sans-serif;
-  color: #8c8c8c;
-  background-color: #f4f4f4;
+  color: #666666;
+  background-color: #fafafa;
   letter-spacing: 0.1rem;
   -ms-overflow-style: none; // IE
   overflow: -moz-scrollbars-none; // Firefox
@@ -46,12 +46,11 @@ html, body {
 
 .content-welcome-overlay {
   display: table;
-  background-color: #000000;
+  background-color: rgba(255,255,255,0.5);;
   opacity: 0.6;
   height: 100vh;
   width: 100%;
   text-align: center;
-  z-index: 1;
 }
 .content-welcome-overlay:before {
   content: "";
@@ -62,19 +61,19 @@ html, body {
   left: 0;
   right: 0;
   background: url("amura-work.jpg") no-repeat center center fixed;
-  opacity: .34;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
+  opacity: 0.8;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 .welcome-note {
+  z-index: 2;
+  opacity: 1;
   display: table-cell;
   vertical-align: middle;
-  color: #ffffff;
-  font-size: 6rem;
+  color: #000000;
+  font-size: 7.6rem;
 }
 
 .portfolio-title {
@@ -93,31 +92,33 @@ html, body {
   letter-spacing: 0.29rem;
 }
 .img-thumbnail {
-  height: 222px;
-  width: 200px;
+  height: 232px;
+  width: 210px;
 }
 .title {
-  font-size: 1.01rem;
+  font-size: 1.02rem;
   text-transform: uppercase;
 }
 .title-info {
   font-size: 1.06rem;
   text-decoration: none;
-  color: #5d5d5d;
+  color: #444;
 }
 .title-info:hover, .title-info:active, .title-info:focus {
   text-decoration: none;
-  color: #2c2c2c;
+  color: #111111;
 }
 .info-separator {
-  margin: 21px 0 21px 0;
-  font-size: .48rem;
+  margin: 25px 0 25px 0;
 }
-.info-separator i {
-  margin-left: 2px;
-  margin-right: 2px;
-}
-.social-media-icons i {
+.info-separator i, .social-media-icons i {
+  font-size: .5rem;
   margin-left: 4px;
   margin-right: 4px;
+}
+.social-media-icons i {
+  font-size: 1.06rem;
+}
+a:hover {
+  text-decoration: none;
 }

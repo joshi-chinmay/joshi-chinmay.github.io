@@ -1,4 +1,4 @@
-$(document).ready(function(){
-  $('.content-welcome-overlay').delay(1600).fadeOut();
-  $('.container-portfolio').delay(0).fadeIn(100);
+$(document).ready(function() {
+  $('.content-welcome-overlay').delay(1800).fadeOut();
+  $('.container-portfolio').delay(100).fadeIn();
 });
