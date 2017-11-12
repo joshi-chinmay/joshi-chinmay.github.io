@@ -3,8 +3,12 @@ html, body {
   color: #8c8c8c;
   background-color: #f4f4f4;
   letter-spacing: 0.1rem;
+  -ms-overflow-style: none; // IE
+  overflow: -moz-scrollbars-none; // Firefox
 }
-
+::-webkit-scrollbar {
+    display: none;  // Safari and Chrome
+}
  /*large diveces */
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
   html, body {
@@ -38,6 +42,39 @@ html, body {
   .sm-device-mar-top {
     margin-top: 25px;
   }
+}
+
+.content-welcome-overlay {
+  display: table;
+  background-color: #000000;
+  opacity: 0.6;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+}
+.content-welcome-overlay:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url("amura-work.jpg") no-repeat center center fixed;
+  opacity: .34;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.welcome-note {
+  display: table-cell;
+  vertical-align: middle;
+  color: #ffffff;
+  font-size: 6rem;
 }
 
 .portfolio-title {
