@@ -2,7 +2,8 @@ html, body {
   font-family: 'Nunito', sans-serif;
   color: #666666;
   background-color: #fcfcfc;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.094rem;
+  line-height: 1.72;
   -ms-overflow-style: none; // IE
   overflow: -moz-scrollbars-none; // Firefox
 }
@@ -73,7 +74,9 @@ html, body {
   color: #000000;
   font-size: 7.90rem;
 }
-
+.portfolio-contact-details {
+  margin-bottom: 40px;
+}
 .portfolio-title {
   padding: 44px 0px 44px 0px;
   text-align: center;
@@ -90,8 +93,7 @@ html, body {
   letter-spacing: 0.29rem;
 }
 .img-thumbnail {
-  height: 232px;
-  width: 210px;
+  width: 202px;
 }
 .title {
   font-size: 1.02rem;
@@ -109,13 +111,26 @@ html, body {
   text-decoration: none;
   color: #111111;
 }
+.toggable-title:after {
+  content: "[+]";
+  margin-left: 10px;
+}
+li {
+  margin-left: -14px;
+  padding-left: 8px;
+  margin-bottom: 6px;
+}
+.toggable-title.active:after {
+  content: "[-]";
+  margin-left: 10px;
+}
 .info-separator {
   margin: 25px 0 25px 0;
 }
 .info-separator i, .social-media-icons i {
   font-size: .5rem;
-  margin-left: 4px;
-  margin-right: 4px;
+  margin-left: 6px;
+  margin-right: 6px;
 }
 .social-media-icons i {
   font-size: 1.06rem;
