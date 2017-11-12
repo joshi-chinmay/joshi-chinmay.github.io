@@ -93,7 +93,7 @@ html, body {
   letter-spacing: 0.29rem;
 }
 .img-thumbnail {
-  width: 202px;
+  width: 174px;
 }
 .title {
   font-size: 1.02rem;
@@ -116,9 +116,7 @@ html, body {
   margin-left: 10px;
 }
 li {
-  margin-left: -14px;
-  padding-left: 8px;
-  margin-bottom: 6px;
+  margin-bottom: 5px;
 }
 .toggable-title.active:after {
   content: "[-]";
