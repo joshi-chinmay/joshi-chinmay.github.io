@@ -1,14 +1,14 @@
 html, body {
   font-family: 'Nunito', sans-serif;
   color: #666666;
-  background-color: #fcfcfc;
+  background-color: #f4f4f4;
   letter-spacing: 0.094rem;
   line-height: 1.72;
-  -ms-overflow-style: none; // IE
-  overflow: -moz-scrollbars-none; // Firefox
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
 }
 ::-webkit-scrollbar {
-    display: none;  // Safari and Chrome
+  display: none;
 }
  /*large diveces */
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
@@ -47,8 +47,7 @@ html, body {
 
 .content-welcome-overlay {
   display: table;
-  background: rgba(255, 255, 255, 0.5);
-  opacity: 0.8;
+  opacity: 0.89;
   height: 100vh;
   width: 100%;
   text-align: center;
@@ -68,11 +67,12 @@ html, body {
   background-size: cover;
 }
 .welcome-note {
+  opacity: 1;
   z-index: 2;
   display: table-cell;
   vertical-align: middle;
-  color: #000000;
-  font-size: 7.90rem;
+  color: #000;
+  font-size: 8.12rem;
 }
 .portfolio-contact-details {
   margin-bottom: 40px;
@@ -84,12 +84,8 @@ html, body {
 }
 .lead-lg {
   font-size: 4.12rem;
-  font-weight: 300;
-  letter-spacing: 0.29rem;
 }
-.lead {
-  font-size: 1.12rem;
-  font-weight: 300;
+.lead-lg, .lead {
   letter-spacing: 0.29rem;
 }
 .img-thumbnail {
@@ -113,20 +109,20 @@ html, body {
 }
 .toggable-title:after {
   content: "[+]";
-  margin-left: 10px;
+  margin-left: 8px;
 }
 li {
   margin-bottom: 5px;
 }
 .toggable-title.active:after {
   content: "[-]";
-  margin-left: 10px;
+  margin-left: 8px;
 }
 .info-separator {
   margin: 25px 0 25px 0;
 }
 .info-separator i, .social-media-icons i {
-  font-size: .5rem;
+  font-size: 0.45rem;
   margin-left: 6px;
   margin-right: 6px;
 }
@@ -134,5 +130,9 @@ li {
   font-size: 1.06rem;
 }
 a:hover {
+  color: #292929;
   text-decoration: none;
+}
+a:active {
+  color: #000000;
 }
