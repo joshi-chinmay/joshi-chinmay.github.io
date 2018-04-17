@@ -1,9 +1,9 @@
 html, body {
   font-family: 'Nunito', sans-serif;
-  color: #666666;
-  background-color: #f4f4f4;
-  letter-spacing: 0.094rem;
-  line-height: 1.72;
+  color: #ffffff;
+  background-color: #000000;
+  letter-spacing: 0.098rem;
+  line-height: 1.64;
   -ms-overflow-style: none;
   overflow: -moz-scrollbars-none;
 }
@@ -45,40 +45,11 @@ html, body {
   }
 }
 
-.content-welcome-overlay {
-  display: table;
-  opacity: 0.89;
-  height: 100vh;
-  width: 100%;
-  text-align: center;
-}
-.content-welcome-overlay:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: linear-gradient(rgba(255, 255, 255, 0.6),rgba(255, 255, 255, 0.6)), url("amura-work.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-.welcome-note {
-  opacity: 1;
-  z-index: 2;
-  display: table-cell;
-  vertical-align: middle;
-  color: #000;
-  font-size: 8.12rem;
-}
 .portfolio-contact-details {
   margin-bottom: 40px;
 }
 .portfolio-title {
-  padding: 44px 0px 44px 0px;
+  padding: 34px 0px 34px 0px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -90,49 +61,39 @@ html, body {
 }
 .img-thumbnail {
   width: 174px;
+  border: none;
+  padding: 1px;
 }
 .title {
-  font-size: 1.02rem;
+  font-size: 0.86rem;
   text-transform: uppercase;
 }
 .tile-info-wrapper {
   display: none;
 }
 .title-info {
-  font-size: 1.06rem;
-  text-decoration: none;
-  color: #444;
-}
-.title-info:hover, .title-info:active, .title-info:focus {
-  text-decoration: none;
-  color: #111111;
+  font-size: 0.82rem;
 }
 .toggable-title:after {
   content: "[+]";
   margin-left: 8px;
 }
 li {
-  margin-bottom: 5px;
+  margin-bottom: 6px;
 }
 .toggable-title.active:after {
   content: "[-]";
-  margin-left: 8px;
 }
 .info-separator {
-  margin: 25px 0 25px 0;
+  margin: 22px 0 22px 0;
 }
 .info-separator i, .social-media-icons i {
   font-size: 0.45rem;
-  margin-left: 6px;
-  margin-right: 6px;
+  margin: 0px 6px;
 }
 .social-media-icons i {
-  font-size: 1.06rem;
+  font-size: 0.84rem;
 }
 a:hover {
-  color: #292929;
   text-decoration: none;
-}
-a:active {
-  color: #000000;
 }
