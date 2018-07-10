@@ -1,11 +1,12 @@
 html, body {
   font-family: 'Nunito', sans-serif;
-  background-color: #000000;
-  color: #ffffff;
+  background-color: #f4f4f4;
+  color: #585858;
   letter-spacing: 0.098rem;
   line-height: 1.64;
   -ms-overflow-style: none;
   overflow: -moz-scrollbars-none;
+  text-transform: lowercase;
 }
 ::-webkit-scrollbar {
   display: none;
@@ -44,11 +45,16 @@ html, body {
     margin-top: 25px;
   }
 }
-
+a {
+  color: #1f1a1a;
+  text-decoration: none;
+}
+ul {
+  list-style: circle;
+}
 .portfolio-title {
-  padding: 28px 0px 28px 0px;
+  padding: 15px 0px 15px 0px;
   text-align: center;
-  text-transform: uppercase;
 }
 .lead-lg {
   font-size: 4.12rem;
@@ -57,19 +63,19 @@ html, body {
   letter-spacing: 0.29rem;
 }
 .img-thumbnail {
-  width: 174px;
+  width: 184px;
   border: none;
-  padding: 1px;
+  padding: 0px;
+  border-radius: 200px
 }
 .title {
-  font-size: 0.86rem;
-  text-transform: uppercase;
+  font-size: 0.96rem;
 }
 .tile-info-wrapper {
   display: none;
 }
 .title-info {
-  font-size: 0.82rem;
+  font-size: 0.86rem;
 }
 .toggable-title:after {
   content: "[+]";
@@ -88,16 +94,10 @@ a:hover {
   text-decoration: none;
 }
 .find-me-on {
-  width: 100%;
   text-align: center;
+  bottom: 0;
 }
-.find-me-on .social-media-icon {
+.social-media-icon {
   font-size: 2rem;
-  padding: 0px 26px;
-}
-hr {
-  border: 0;
-  height: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.5);
-  border-bottom: 1px solid rgba(0, 157, 249, 0.3);
+  margin: 0px 20px;
 }
