@@ -32,8 +32,9 @@
   <body>
     <div class="container-portfolio">
       <div class="container-fluid">
+
         <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 pt-2">
             <div class="portfolio-title">
               <div class="row">
                 <div class="col-md-12">
@@ -47,19 +48,17 @@
           </div>
         </div>
 
-        <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 text-center">
+        <div class="row my-4">
+          <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4 text-center">
             <div class="row">
               <div class="col-sm-12 col-md-12">
-                <div class="avatar">
-                  <img src="resources/pp.jpg" class="img-thumbnail" />
-                </div>
+                <img src="resources/pp.jpg" class="img-thumbnail" />
               </div>
             </div>
 
             <div class="info-separator"></div>
 
-            <div class="row">
+            <div class="row text-center">
               <div class="col-sm-12 col-md-12">
                 <span class="title">Email</span>
               </div>
@@ -73,13 +72,27 @@
                 <span class="title">Phone</span>
               </div>
               <div class="col-sm-12 col-md-12">
-                <a href="tel:+60173370357" class="title-info">+60-173370357</span>
+                <a href="tel:+60173370357" class="title-info">+60-173370357</a>
               </div>
+            </div>
+
+            <div class="info-separator"></div>
+
+            <div class="col-sm-12 col-md-12">
+              <span class="title">find me on</span>
+            </div>
+            <div class="col-sm-12 col-md-12 mt-1">
+              <a class="social-media-icon" target="_blank" href="https://github.com/joshi-chinmay"><i class="fa fa-github"></i></a>
+              <a class="social-media-icon" target="_blank" href="https://dev.to/joshichinmay"><i class="fa fa-code"></i></a>
+              <a class="social-media-icon" target="_blank" href="https://twitter.com/chinmay_joshi_"><i class="fa fa-twitter"></i></a>
+              <a class="social-media-icon" target="_blank" href="https://www.linkedin.com/in/chinmay-joshi-65292598/"><i class="fa fa-linkedin"></i></a>
+              <a class="social-media-icon" target="_blank" href="https://www.instagram.com/chinmayjoshi/"><i class="fa fa-instagram"></i></a>
+              <a class="social-media-icon" target="_blank" href="https://medium.com/@chinmayjoshi"><i class="fa fa-medium"></i></a>
             </div>
           </div>
 
           <div class="portfolio-main-content sm-device-mar-top col-xs-12 col-sm-12 col-md-7 col-lg-7">
-            <div class="row tile-info-container">
+            <div class="row tile-info-container" data-id="1">
               <div class="col-sm-12 col-md-12">
                 <a href="javascript:;" class="title toggable-title active">who am i?</a>
               </div>
@@ -91,7 +104,7 @@
             </div>
             <div class="info-separator"></div>
 
-            <div class="row tile-info-container">
+            <div class="row tile-info-container" data-id="2">
               <div class="col-sm-12 col-md-12">
                 <a href="javascript:;" class="title toggable-title">which technologies do i like?</a>
               </div>
@@ -104,7 +117,7 @@
                     In databases, I like to work with <strong>MongoDB, DynamoDB and SQL</strong>.
                   </li>
                   <li>
-                    Currently i am adapting to <strong>amazon web services</strong> (exclusively lambdas, api gateways, ec2, s3, dynamo db) and <strong>serverless</strong> architecture.
+                    Currently i am adapting to <strong>amazon web services</strong> (primarily on lambda, api-gateways, ec2, s3, dynamodb) and <strong>serverless</strong> architecture.
                   </li>
                   <li>
                     I am fond of <strong>JavaScript, React.JS, Backbone.JS + Marionette.JS</strong>.
@@ -126,7 +139,7 @@
             </div>
             <div class="info-separator"></div>
 
-            <div class="row tile-info-container">
+            <div class="row tile-info-container" data-id="3">
               <div class="col-sm-12 col-md-12">
                 <a href="javascript:;" class="title toggable-title">where do i work?</a>
               </div>
@@ -136,14 +149,14 @@
                     Currently I am working at <a href="https://www.supahands.com/" target="_blank"><strong>Supahands</strong></a>, Kuala Lumpur, Malaysia, as a <strong>'Full Stack Software Engineer'</strong> (April 2018 - current).
                   </li>
                   <li>
-                    Previously, I was working at <a href="https://amuratech.com" target="_blank"><strong>Amura marketing technologies</strong></a>, Pune, India, as a <strong>'Full Stack Software Engineer'</strong>, for two years (December 2015 - April 2018).
+                    Previously, I was working at <a href="https://amuratech.com" target="_blank"><strong>Amura marketing technologies</strong></a>, Pune, India, as a <strong>'Full Stack Software Engineer'</strong>, for two and the half years (December 2015 - April 2018).
                   </li>
                 </ul>
               </div>
             </div>
             <div class="info-separator"></div>
 
-            <div class="row tile-info-container">
+            <div class="row tile-info-container" data-id="4">
               <div class="col-sm-12 col-md-12">
                 <a href="javascript:;" class="title toggable-title">what is my experience as a software engineer?</a>
               </div>
@@ -161,21 +174,18 @@
                       A completely customizable B2B platform for managing sales, and marketing of companies in any business domain.
                     </span>
                   </li>
-
                   <li>
                     <span class="title-info">
                       <b>pages.sell.do -</b>
                       The Pages is a website building tool, to simplify the process of creating and managing websites, using different features such as drag and drop components, color graders, undo-redo, responsive utilities.
                     </span>
                   </li>
-
                   <li>
                     <span class="title-info">
                       <b>collaborate.do -</b>
                       The collaborate.do, is an internal process management system, to streamline the company’s process and enhance the end-to-end delivery of the routine tasks.
                     </span>
                   </li>
-
                   <li>
                     <span class="title-info">
                       <b>estate.sell.do -</b>
@@ -183,14 +193,11 @@
                     </span>
                   </li>
                 </ul>
-                <span class="title-info">
-
-                </span>
               </div>
             </div>
             <div class="info-separator"></div>
 
-            <div class="row tile-info-container">
+            <div class="row tile-info-container" data-id="5">
               <div class="col-sm-12 col-md-12">
                 <a href="javascript:;" class="title toggable-title">what about open source contributions and other projects?</a>
               </div>
@@ -198,22 +205,12 @@
                 <ul>
                   <li>
                     <span class="title-info">
-                      <b>tilt -</b> The vision behind this idea is to have a platform where a user can create a list of songs he/she listens to every day. We believe, there is an emotion associated with every song. The platform will help the user to add new songs and create playlists, where he/she can openly or privately talk about his/her feelings associated with a piece of music.
+                      <b>tilt -</b> The vision behind this product is to have a platform where a user can create a list of songs he/she listens to every day. We believe, there is an emotion associated with every song. The platform will help the user to add new songs and create playlists, where he/she can openly or privately talk about his/her feelings associated with a piece of music.
                     </span>
                   </li>
                   <li>
                     <span class="title-info">
-                      <a href="http://joshi-chinmay.github.io/randomcolorpicker" target="_blank"><b>randomcolorpicker</b></a> - Random color picker is a small project which generates random colors and color-shades for the selected color.
-                    </span>
-                  </li>
-                  <li>
-                    <span class="title-info">
-                      <a href="https://bootstrap-slack.herokuapp.com/" target="_blank"><b>Bootstrap Community</b></a> - I participate in the discussions happening on the bootstrap slack community, which keeps me updated with newer trends happening in UI technologies. It is a real pleasure to learn from fellow coders.
-                    </span>
-                  </li>
-                  <li>
-                    <span class="title-info">
-                      <b>Gym Management System -</b> The motto of this application is to bring simplicity to the gym’s routine tasks. In addition to marketing automation, customer interaction, and satisfaction.
+                      <a href="http://joshi-chinmay.github.io/randomcolorpicker" target="_blank"><b>randomcolorpicker</b></a> - is a small project which generates random colors and color-shades for the selected color.
                     </span>
                   </li>
                 </ul>
@@ -221,7 +218,7 @@
             </div>
             <div class="info-separator"></div>
 
-            <div class="row tile-info-container">
+            <div class="row tile-info-container" data-id="6">
               <div class="col-sm-12 col-md-12">
                 <a href="javascript:;" class="title toggable-title">what is my educational background?</a>
               </div>
@@ -249,16 +246,6 @@
           <div class="col-md-1 col-lg-1"></div>
         </div>
 
-        <div class="row find-me-on mt-5">
-          <div class="col-sm-12 col-md-12">
-            <a class="social-media-icon" target="_blank" href="https://github.com/joshi-chinmay"><i class="fa fa-github"></i></a>
-            <a class="social-media-icon" target="_blank" href="https://dev.to/joshichinmay"><i class="fa fa-code"></i></a>
-            <a class="social-media-icon" target="_blank" href="https://twitter.com/chinmay_joshi_"><i class="fa fa-twitter"></i></a>
-            <a class="social-media-icon" target="_blank" href="https://www.linkedin.com/in/chinmay-joshi-65292598/"><i class="fa fa-linkedin"></i></a>
-            <a class="social-media-icon" target="_blank" href="https://www.instagram.com/chinmayjoshi/"><i class="fa fa-instagram"></i></a>
-            <a class="social-media-icon" target="_blank" href="https://medium.com/@chinmayjoshi"><i class="fa fa-medium"></i></a>
-          </div>
-        </div>
       </div>
     </div>
   </body>

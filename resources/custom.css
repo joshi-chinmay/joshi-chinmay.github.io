@@ -3,7 +3,7 @@ html, body {
   background-color: #f4f4f4;
   color: #585858;
   letter-spacing: 0.098rem;
-  line-height: 1.64;
+  line-height: 1.62;
   -ms-overflow-style: none;
   overflow: -moz-scrollbars-none;
   text-transform: lowercase;
@@ -52,19 +52,21 @@ a {
 ul {
   list-style: circle;
 }
+strong, b {
+  color: #1f1a1a;
+}
 .portfolio-title {
-  padding: 15px 0px 15px 0px;
   text-align: center;
 }
 .lead-lg {
-  font-size: 4.12rem;
+  font-size: 3.56rem;
 }
 .lead-lg, .lead {
   letter-spacing: 0.29rem;
 }
 .img-thumbnail {
-  width: 184px;
-  border: none;
+  width: 186px;
+  border: 2px solid #1f1a1a;
   padding: 0px;
   border-radius: 200px
 }
@@ -88,16 +90,14 @@ li {
   content: "[-]";
 }
 .info-separator {
-  margin: 22px 0 22px 0;
+  margin: 30px 0 30px 0;
 }
 a:hover {
   text-decoration: none;
 }
 .find-me-on {
   text-align: center;
-  bottom: 0;
 }
 .social-media-icon {
-  font-size: 2rem;
-  margin: 0px 20px;
+  margin: 0px 6px;
 }
