@@ -101,3 +101,10 @@ a:hover {
 .social-media-icon {
   margin: 0px 6px;
 }
+.social-media-icon:hover {
+  color: inherit;
+}
+.devto-icon {
+  width: 4.5%;
+  height: 4.5%;
+}
