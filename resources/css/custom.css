@@ -1,9 +1,9 @@
 html, body {
   font-family: 'Nunito', sans-serif;
-  background-color: #f4f4f4;
+  background-color: #f8f8f8;
   color: #585858;
   letter-spacing: 0.098rem;
-  line-height: 1.62;
+  line-height: 1.64;
   -ms-overflow-style: none;
   overflow: -moz-scrollbars-none;
   text-transform: lowercase;
@@ -99,12 +99,13 @@ a:hover {
   text-align: center;
 }
 .social-media-icon {
+  font-size: 18px;
   margin: 0px 6px;
 }
 .social-media-icon:hover {
   color: inherit;
 }
 .devto-icon {
-  width: 4.5%;
-  height: 4.5%;
+  width: 4.4%;
+  height: 4.4%;
 }
