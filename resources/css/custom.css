@@ -1,7 +1,5 @@
 html, body {
   font-family: 'Nunito', sans-serif;
-  background-color: #f4f4f4;
-  color: #585858;
   letter-spacing: 0.098rem;
   line-height: 1.64;
   -ms-overflow-style: none;
@@ -17,7 +15,7 @@ html, body {
     text-align: justify;
   }
   .pull-up {
-    margin-top: -42px;
+    margin-top: -38px;
   }
 }
  /*large diveces retina display */
@@ -26,7 +24,7 @@ html, body {
     text-align: justify;
   }
   .pull-up {
-    margin-top: -42px;
+    margin-top: -38px;
   }
 }
 
@@ -110,13 +108,9 @@ a:hover {
   text-align: center;
 }
 .social-media-icon {
-  font-size: 18px;
-  margin: 0px 6px;
+  font-size: 21px;
+  margin: 0px 8px;
 }
 .social-media-icon:hover {
   color: #4286f4;
-}
-.devto-icon {
-  width: 4.4%;
-  height: 4.4%;
 }
