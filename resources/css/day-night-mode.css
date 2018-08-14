@@ -15,7 +15,7 @@
   color: #585858;
 }
 .day-time .day-night-mode-toggle {
-  color: #4286f4;
+  color: #4739ff;
 }
 /* day mode text colors */
 
@@ -26,13 +26,13 @@
   color: #f4f4f4;
 }
 .night-time a {
-  color: #4286f4 !important;
+  color: #00f6ff !important;
 }
 .night-time .img-thumbnail {
-  border: 2px solid #4286f4;
+  border: 1px solid;
 }
 .night-time .day-night-mode-toggle {
-  color: #eded53;
+  color: #00f6ff;
 }
 .night-time .title {
   color: #f4f4f4;

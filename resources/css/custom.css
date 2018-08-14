@@ -1,7 +1,7 @@
 html, body {
   font-family: 'Nunito', sans-serif;
   letter-spacing: 0.098rem;
-  line-height: 1.64;
+  line-height: 1.68;
   -ms-overflow-style: none;
   overflow: -moz-scrollbars-none;
   text-transform: lowercase;
@@ -72,7 +72,7 @@ strong, b {
 }
 .img-thumbnail {
   width: 186px;
-  border: 2px solid #1f1a1a;
+  border: 1px solid;
   padding: 0px;
   border-radius: 100%;
 }
