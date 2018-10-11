@@ -71,10 +71,10 @@ strong, b {
   letter-spacing: 0.29rem;
 }
 .img-thumbnail {
-  width: 186px;
-  border: 1px solid;
-  padding: 0px;
+  border: none;
   border-radius: 100%;
+  width: 186px;
+  padding: 0px;
 }
 .title {
   font-size: 0.96rem;
