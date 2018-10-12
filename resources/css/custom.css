@@ -57,7 +57,7 @@ ul {
   list-style: circle;
 }
 strong, b {
-  color: #4286f4;
+  color: #6f91f2;
   font-weight: 800;
 }
 .portfolio-title {
@@ -73,8 +73,10 @@ strong, b {
 .img-thumbnail {
   border: none;
   border-radius: 100%;
-  width: 186px;
+  height: 200px;
+  /* width: 186px; */
   padding: 0px;
+  background-color: transparent;
 }
 .title {
   font-size: 0.96rem;
