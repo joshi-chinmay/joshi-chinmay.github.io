@@ -49,7 +49,7 @@ $(document).ready(function() {
       $(".welcome-note-container").hide();
       $(".main-page").show("450");
     });
-  }, 6000);
+  }, 60);
 });
 
 var optimizeMobileVersion = function() {

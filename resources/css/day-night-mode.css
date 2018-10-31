@@ -26,7 +26,10 @@
   color: #f4f4f4;
 }
 .night-time a {
-  color: #c4dcff;
+  color: #BFEBFF;
+}
+.night-time a:hover {
+  color: #6f91f2;
 }
 .night-time .img-thumbnail {
   /* border: 1px solid; */
@@ -34,7 +37,7 @@
   padding: 0px 16px;
 }
 .night-time .day-night-mode-toggle {
-  color: #c4dcff;
+  color: #BFEBFF;
 }
 .night-time .title {
   color: #f4f4f4;
