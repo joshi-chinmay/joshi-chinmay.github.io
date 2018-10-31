@@ -72,6 +72,10 @@ strong, b {
   color: #6f91f2;
   font-weight: 800;
 }
+
+.portfolio-main-content {
+  margin-top: 1.5%;
+}
 .info-title {
   animation: MoveUpDown 2s linear infinite;
 }
@@ -142,10 +146,10 @@ strong, b {
   font-size: 4.56rem;
 }
 .lead {
-  font-size: 1.65rem;
+  font-size: 1.46rem;
 }
 .lead-lg, .lead {
-  letter-spacing: 0.29rem;
+  letter-spacing: 0.28rem;
 }
 .img-thumbnail {
   position: relative;
@@ -179,6 +183,12 @@ li {
 .info-separator {
   margin: 30px 0 30px 0;
 }
+a {
+  transition: 120ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 120ms;
+  -webkit-transition-timing-function: ease-in-out;
+}
 a:hover {
   color: #4286f4;
   text-decoration: none;
@@ -187,9 +197,15 @@ a:hover {
   text-align: center;
 }
 .social-media-icon {
-  font-size: 21px;
   margin: 0px 8px;
 }
-.social-media-icon:hover {
-  color: #4286f4;
+.social-media-icon svg {
+  height: 26px;
+  transition: 120ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 120ms;
+  -webkit-transition-timing-function: ease-in-out;
+}
+.social-media-icon svg:hover {
+  fill: #4286f4;
 }
