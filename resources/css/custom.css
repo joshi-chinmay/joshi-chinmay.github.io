@@ -209,3 +209,7 @@ a:hover {
 .social-media-icon svg:hover {
   fill: #4286f4;
 }
+
+.skip-to-main-content > p {
+  cursor: pointer;
+}

@@ -31,6 +31,7 @@
 
     <link rel="stylesheet" href="resources/css/bootstrap.min.css" />
     <link rel="stylesheet" href="resources/css/custom.css" />
+    <link rel="stylesheet" href="resources/css/buttons.css" />
     <link rel="stylesheet" href="resources/css/day-night-mode.css" />
     <link rel="stylesheet" href="resources/css/parallax.css" />
   </head>
@@ -43,7 +44,10 @@
     </div>
 
     <div class="day-night-mode-toggle">
-      <i class="toggleable-icon fa fa-moon-o" aria-hidden="true"></i>
+      <div class="btn-group" role="group">
+        <button type="button" class="btn btn-secondary day-btn">day</button>
+        <button type="button" class="btn btn-secondary night-btn">night</button>
+      </div>
     </div>
 
     <div class="container-portfolio">
@@ -55,10 +59,12 @@
             </h1>
           </div>
         </div>
-
         <div class="row pt-5">
           <div class="col-md-12 text-center">
             <img src="./resources/images/icode.gif" alt="i-code" />
+          </div>
+          <div class="col-md-12 text-center pt-5 skip-to-main-content">
+            <p>skip to main content</p>
           </div>
         </div>
       </div>

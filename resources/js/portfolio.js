@@ -9,21 +9,25 @@ $(document).ready(function() {
   var today = new Date().getHours();
   if (today >= 7 && today <= 18) {
     $("body").addClass("day-time");
-    $(".toggleable-icon").removeClass("fa-moon-o");
-    $(".toggleable-icon").addClass("fa-sun-o");
-    console.log("alsjdnaskjdnaksdn");
+    $(".day-btn").addClass("btn-success");
+    $(".day-btn").removeClass("btn-secondary");
   } else {
     $("body").addClass("night-time");
-    $(".toggleable-icon").addClass("fa-moon-o");
-    $(".toggleable-icon").removeClass("fa-sun-o");
+    $(".night-btn").addClass("btn-success");
   }
 
-  $(".day-night-mode-toggle").click(function(e) {
-    $("body").toggleClass("day-time");
-    $("body").toggleClass("night-time");
+  $(".day-btn").click(function(e) {
+    $(".day-btn").addClass("btn-success");
+    $(".night-btn").removeClass("btn-success");
+    $("body").addClass("day-time");
+    $("body").removeClass("night-time");
+  });
 
-    $(".toggleable-icon").toggleClass("fa-moon-o");
-    $(".toggleable-icon").toggleClass("fa-sun-o");
+  $(".night-btn").click(function(e) {
+    $(".night-btn").addClass("btn-success");
+    $(".day-btn").removeClass("btn-success");
+    $("body").addClass("night-time");
+    $("body").removeClass("day-time");
   });
 
   $(".toggable-title").click(function(e) {
@@ -44,13 +48,21 @@ $(document).ready(function() {
     });
   });
 
+  $(".skip-to-main-content").click(function(){
+    skipToContent();
+  });
+
   setTimeout(function() {
-    $(".welcome-note-container").slideUp(600, function() {
-      $(".welcome-note-container").hide();
-      $(".main-page").show("450");
-    });
+    skipToContent();
   }, 6000);
 });
+
+var skipToContent = function() {
+  $(".welcome-note-container").slideUp(600, function() {
+    $(".welcome-note-container").hide();
+    $(".main-page").show("450");
+  });
+}
 
 var optimizeMobileVersion = function() {
   if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|ipad|iris|kindle|Android|Silk|lge |maemo|midp|mmp|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i.test(navigator.userAgent)
