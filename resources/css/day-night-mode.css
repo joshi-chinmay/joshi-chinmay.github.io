@@ -1,9 +1,8 @@
 .day-night-mode-toggle {
   position: absolute;
   z-index: 2;
-  top: 36px;
-  right: 36px;
-  font-size: 21px;
+  top: 40px;
+  right: 40px;
 }
 .day-night-mode-toggle {
   cursor: pointer;
