@@ -2,8 +2,9 @@ button {
   min-width: 60px;
   outline: none !important;
   border: none !important;
+  box-shadow: none !important;
 }
-.btn:focus, .btn:active, .btn-hover {
+.btn:focus, .btn:active, .btn:hover {
   outline: none !important;
   box-shadow: none !important;
 }

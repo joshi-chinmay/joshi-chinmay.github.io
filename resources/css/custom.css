@@ -116,12 +116,12 @@ strong, b {
 }
 .typewriter h1 {
   overflow: hidden;
-  font-size: 46px;
+  font-size: 36px;
   border-right: 4px solid;
   white-space: nowrap;
   word-wrap: break-word;
   margin: 0 auto;
-  animation: typing 3s steps(40, end), blink-caret .3s step-end infinite;
+  animation: typing 2.4s steps(40, end), blink-caret .24s step-end infinite;
 }
 /* The typing effect */
 @keyframes typing {
