@@ -60,6 +60,9 @@ html, body {
   .welcome-note-container img {
     width: 250px !important;
   }
+  .portfolio-main-content {
+    margin-top: 12% !important;
+  }
 }
 a {
   color: #1f1a1a;
