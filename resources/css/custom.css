@@ -6,6 +6,9 @@ html, body {
   overflow: -moz-scrollbars-none;
   text-transform: lowercase;
 }
+.text-upcase {
+  text-transform: uppercase;
+}
 ::-webkit-scrollbar {
   display: none;
 }
