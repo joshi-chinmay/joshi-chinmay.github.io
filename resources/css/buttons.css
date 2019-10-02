@@ -1,3 +1,6 @@
+.btn {
+  font-size: 0.76rem;
+}
 button {
   min-width: 60px;
   border: none !important;

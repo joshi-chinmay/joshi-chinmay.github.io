@@ -1,0 +1,23 @@
+body {
+  font-family: monospace;
+  letter-spacing: 0.098rem;
+  line-height: 1.56;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+a {
+  color: #1f1a1a;
+  text-decoration: none;
+}
+a:hover {
+  color: #4286f4;
+  text-decoration: none;
+}
+ul {
+  list-style: circle;
+}
+strong, b {
+  color: #6f91f2;
+  font-weight: bold;
+}
