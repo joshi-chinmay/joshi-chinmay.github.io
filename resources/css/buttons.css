@@ -1,12 +1,13 @@
 button {
   min-width: 60px;
-  outline: none !important;
   border: none !important;
   box-shadow: none !important;
+  outline: none !important;
 }
 .btn:focus, .btn:active, .btn:hover {
-  outline: none !important;
+  border: none !important;
   box-shadow: none !important;
+  outline: none !important;
 }
 .btn-success {
   background-color: #53ad68 !important;
