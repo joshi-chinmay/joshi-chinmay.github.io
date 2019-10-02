@@ -41,4 +41,10 @@
 .night-time .title {
   color: #f4f4f4;
 }
+.day-time .day-night-mode-toggle .day-btn {
+  color: #ffffff;
+}
+.night-time .day-night-mode-toggle .day-btn {
+  color: #000000;
+}
 /* night mode text colors */
