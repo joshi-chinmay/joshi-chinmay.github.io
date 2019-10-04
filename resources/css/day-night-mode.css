@@ -8,6 +8,13 @@
   cursor: pointer;
 }
 
+.day-time .container-portfolio {
+  background-color: rgba(0, 0, 0, 0.09);
+}
+.night-time .container-portfolio {
+  background-color: rgba(255, 255, 255, 0.09);
+}
+
 /* day mode text colors */
 .day-time {
   background-color: #f4f4f4;
@@ -42,7 +49,7 @@
   color: #f4f4f4;
 }
 .day-time .day-night-mode-toggle .day-btn {
-  color: #ffffff;
+  color: #f1f1f1;
 }
 .night-time .day-night-mode-toggle .day-btn {
   color: #000000;

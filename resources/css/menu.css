@@ -1,0 +1,70 @@
+.website-menu-container {
+  position: absolute;
+  z-index: 2;
+  top: 38px;
+  left: 30px;
+}
+.website-menu-container svg {
+  height: 26px;
+}
+.night-time .website-menu-container svg {
+  color: #f4f4f4;
+}
+.container-menu {
+  position: absolute;
+  left: 25px;
+  right: 25px;
+  top: 25px;
+  bottom: 25px;
+  margin: auto;
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  border-radius: 12px;
+  z-index: 10;
+  opacity: 0.95;
+  border: 2px solid #9900FF;
+
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(153,0,255,0.4);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(153,0,255,0.4);
+  box-shadow: 0px 0px 10px 0px rgba(153,0,255,0.4);
+
+}
+.night-time .container-menu {
+  background-color: #101010;
+}
+.night-time .container-menu svg {
+  color: #f4f4f4;
+}
+.day-time .container-menu {
+  background-color: #c1c4c8;
+}
+.day-time .container-menu svg {
+  color: #212529;
+}
+.container-menu .menu-deactivator-container {
+  position: absolute;
+  left: 4px;
+}
+.container-menu .centered-menu-items {
+  position: relative;
+  float: left;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container-menu svg {
+  margin-top: 8px;
+  height: 32px;
+}
+.centered-menu-items a {
+  color: rgba(153,0,255,0.7) !important;
+  font-size: 36px;
+  margin: 0px 25px;
+  transition: all 0.2s ease-in;
+}
+.centered-menu-items a:hover {
+  color: #9900FF !important;
+}

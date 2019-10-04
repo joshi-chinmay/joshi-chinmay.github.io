@@ -15,7 +15,7 @@
   max-height: 100%;
   overflow: auto;
   background-color: #ffffff;
-  border-radius: 10px;
+  border-radius: 12px;
 }
 .welcome-note-container {
   padding-top: 180px;
@@ -62,12 +62,6 @@
   from, to { border-color: transparent }
   50% { border-color: inherit; }
 }
-.day-time .container-portfolio {
-  background-color: rgba(0, 0, 0, 0.09);
-}
-.night-time .container-portfolio {
-  background-color: rgba(255, 255, 255, 0.09);
-}
 .portfolio-title {
   text-align: center;
 }
@@ -90,7 +84,7 @@
   animation: MoveUpDown 2s linear infinite;
 }
 .title {
-  font-size: 0.96rem;
+  font-size: 1.06rem;
   color: #1f1a1a;
 }
 .tile-info-wrapper {
@@ -98,6 +92,7 @@
 }
 .title-info {
   font-size: 0.86rem;
+  line-height: 1.86;
 }
 .toggable-title:after {
   content: "[+]";
